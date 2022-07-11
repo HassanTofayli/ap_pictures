@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Neuzeit Grotesk';
+    src: local('Neuzeit Grotesk Bold'), local('Neuzeit-Grotesk-Bold'),
+        url('NeuzeitGro-Bol.woff2') format('woff2'),
+        url('NeuzeitGro-Bol.woff') format('woff'),
+        url('NeuzeitGro-Bol.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
