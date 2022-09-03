@@ -15,6 +15,7 @@ hr {
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -165,6 +166,7 @@ a:hover {
     padding: 10px 10px 10px 10px;
 
 }
+
 .search_suggestion_link:hover {
     color: #f1f1f1;
 }
@@ -179,22 +181,26 @@ a:hover {
     padding: 10px;
     text-decoration: none;
 }
+
 .search_suggestion_icon {
     width: 20px;
     padding: 2px 4px;
 }
+
 .squares {
     text-align: center;
 }
+
 .squares_border {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 20px;
     border-radius: 25px;
 }
+
 .square {
     display: inline-block;
-    width : 143px;
+    width: 143px;
     padding: 55px 0px 55px 0px;
     margin: 7px;
     background-color: #ff0000;
@@ -205,32 +211,70 @@ a:hover {
     text-align: center;
     color: white;
 }
-#squares_logo{color: #F66A00;background-color: white; font-weight: lighter;}
-#squares_movies{background-color: #F66A00;}
-#squares_clips{background-color: #FF9B39;}
-#squares_doc{background-color: #0A015B;}
+
+#squares_logo {
+    color: #F66A00;
+    background-color: white;
+    font-weight: lighter;
+}
+
+#squares_movies {
+    background-color: #F66A00;
+}
+
+#squares_clips {
+    background-color: #FF9B39;
+}
+
+#squares_doc {
+    background-color: #0A015B;
+}
 
 
 .slider-frame {
-    overflow: hidden;
     height: 800px;
     width: 1200px;
+    overflow: hidden;
     margin: 20px auto;
 }
+
 @-webkit-keyframes slide_animation {
-    0% {left:0px;}
-    10% {left: 0px;}
-    20% {left: 1200px;}
-    30% {left: 1200px;}
-    40% {left: 2400px;}
-    50% {left: 2400px;}
-    60% {left: 1200px;}
-    70% {left: 1200px;}
-    80% {left: 0px;}
-    90% {left: 0px;}
-    100% {left: 0px;}
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: 0px;
+    }
+    20% {
+        left: 1200px;
+    }
+    30% {
+        left: 1200px;
+    }
+    40% {
+        left: 2400px;
+    }
+    50% {
+        left: 2400px;
+    }
+    60% {
+        left: 1200px;
+    }
+    70% {
+        left: 1200px;
+    }
+    80% {
+        left: 0px;
+    }
+    90% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
 }
-.slide-images{
+
+.slide-images {
     width: 3600px;
     height: 800px;
     margin: 0 0 0 -2400px;
@@ -241,6 +285,7 @@ a:hover {
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
 }
+
 .img-container {
     height: 800px;
     width: 1200px;
@@ -248,6 +293,57 @@ a:hover {
     float: left;
 }
 
+.slidershow {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+}
+
+.slider2_nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.slider2_bar {
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.slider2_bar:hover {
+    background: #fff;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+#r1:checked ~ .s1{margin-left: 0;}
+#r2:checked ~ .s1{margin-left: -20%;}
+#r3:checked ~ .s1{margin-left: -40%;}
+#r4:checked ~ .s1{margin-left: -60%;}
+#r5:checked ~ .s1{margin-left: -80%;}
 
 
 /*############################# FOOTER #############################*/
