@@ -1,0 +1,177 @@
+body {
+    background-color: #4b94d1;
+    background-image: url("images/picture.svg");
+    background-repeat: repeat;
+    background-size: 250px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border-width: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*#################### TOP AREA ####################*/
+
+.top_area {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.main_logo {
+    display: inline-block;
+}
+
+#main_logo {
+    width: 250px;
+    padding-bottom: 40;
+    padding-left: 20px;
+}
+
+.navbar {
+    display: inline-block;
+    width: 65%;
+}
+
+.top_bar {
+    display: inline-block;
+    bottom: 0;
+    padding-left: 10px;
+}
+
+.top_bar_words {
+    font-family: Century Gothic, sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    margin-left: 30px;
+    display: inline;
+    cursor: default;
+}
+
+.top_bar_words:hover {
+    color: #d3e2f5;
+}
+
+.login {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.login_word {
+    font-family: 'Neuzeit Grotesk';
+    font-size: 25;
+    color: #FF9B3B;
+}
+
+.login_word:hover {
+    color: #fa891c;
+}
+
+
+
+/*#################### MIDDLE ####################*/
+.cards{
+    padding-top: 300px;
+    text-align: center;
+}
+.card{
+    width: 350;
+    padding: 10px;
+    display: inline-flex;
+    margin: 45px;
+    text-align: initial;
+}
+.card-body{
+    color: black;
+}
+.card_img{
+       border-radius: 0.1875rem;
+}
+.btn{
+    position: relative;
+    background-color:#f88832 ;
+    outline-style: none;
+    border: none;
+}
+.btn:hover{
+    background-color: #4b94d1;
+}
+
+
+/*############################# FOOTER #############################*/
+
+.footer-basic {
+    position: relative;
+    top: 300px;
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+    padding-top: 7;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
