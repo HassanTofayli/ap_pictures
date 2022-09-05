@@ -42,10 +42,9 @@ a:hover {
 
 .top_bar {
     display: inline-block;
-    bottom: 0;
     padding-left: 10px;
     position: relative;
-    bottom: 10px
+    bottom: -25;
 }
 
 .top_bar_words {
