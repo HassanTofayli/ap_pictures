@@ -25,35 +25,34 @@ a:hover {
 
 .top_area {
     margin-left: 0;
-    margin-top: 50px;
-    width: max-content;
+    margin-top: 20px;
 }
 
 .main_logo {
     display: inline-block;
+    width: 20em;
 }
 
 #main_logo {
-    width: 15rem;
-    margin: 30px 20px 0px 60px;
-
-
+    width: 100%;
+    padding: 20px 10px 0px 60px;
+    margin-bottom: 60;
 }
 
 .top_bar {
     display: inline-block;
     padding-left: 10px;
+    margin: 0;
     position: relative;
-    bottom: -20px;
 }
 
 .top_bar_words {
     font-family: Century Gothic, sans-serif;
     position: relative;
-    font-size: 1.75em;
+    font-size: 1.5em;
     font-weight: lighter;
     color: white;
-    margin-left: 20px;
+    margin-left: 10px;
     display: inline;
     cursor: default;
 }
@@ -228,7 +227,7 @@ input[name="r"] {
 
 .footer-basic {
     position: relative;
-    top: 40px;
+    top: 30px;
     padding: 40px 0;
     /*background-color: #4B94D1;*/
     color: #ffffff;
