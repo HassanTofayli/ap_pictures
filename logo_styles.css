@@ -1,31 +1,62 @@
-
+body {
+    background-color: #ffffff;
+    background-image: url("images/pictures_orange_stroke.svg");
+}
+.top_bar_words {
+    color: #0A015B;
+}
 
 
 /*#################### MIDDLE ####################*/
-.cards{
-    padding-top: 300px;
+.cards {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.card{
-    width: 350;
-    padding: 10px;
-    display: inline-flex;
+
+.card {
+    width: 15em;
+    padding: 10px 20px 15px 20px;
     margin: 45px;
     text-align: initial;
+    border: #F88832 solid 1px;
+    border-radius: 1.2rem;
+    text-align: center;
 }
-.card-body{
+
+.card-body {
     color: black;
+    padding: 0.5rem;
 }
-.card_img{
-       border-radius: 0.1875rem;
+
+.card_img {
+    border-radius: 1rem;
+    border: #F88832 solid 1px;
 }
-.btn{
+.full-collection-button {
+    padding-top: 10px;
+    width: 80px;
+}
+.full-collection-button-hvr {
+    width: 80.1px;
+    padding-top: 10px;
+    position: absolute;
+    margin-left: -80px;
+    opacity: 0;
+}
+.full-collection-button-hvr:hover {
+    opacity: 1;
+}
+.btn {
     position: relative;
-    background-color:#f88832 ;
+    background-color: #f88832;
     outline-style: none;
     border: none;
+    font-size: 12px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #4b94d1;
 }
 
